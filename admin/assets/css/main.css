@@ -1,0 +1,60 @@
+body{
+  min-height: 100vh;
+}
+
+.postImg{
+  width: 700px;
+  height: 400px;
+  margin: 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.InnerPostImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sampleText{
+  margin: 0 30px;
+}
+
+.img-circle{
+  object-fit: cover;
+}
+
+.post,
+.title{
+  margin: 0 30px;
+}
+
+.title{
+  text-align: center;
+}
+
+.titleHover p{
+  display:none
+}
+
+.titleHover:hover p{
+  display:inline
+}
+
+.linkbtn {
+     background:none!important;
+     color:inherit;
+     border:none;
+     padding:0!important;
+     font: inherit;
+}
+
+.catname{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-footer{
+  text-align: center;
+}
